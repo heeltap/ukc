@@ -1,6 +1,8 @@
 package uk.co.heeltap.climbing;
 
-public class RouteFormatter {
+import uk.co.heeltap.web.TableFormatter;
+
+public class RouteFormatter extends TableFormatter{
 
 	public static String format(Route route) {
 		StringBuffer sb = new StringBuffer();

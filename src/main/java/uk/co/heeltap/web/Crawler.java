@@ -1,15 +1,10 @@
 package uk.co.heeltap.web;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-
-import uk.co.heeltap.climbing.Route;
-import uk.co.heeltap.climbing.RouteFormatter;
-import uk.co.heeltap.climbing.UKCScraper;
 
 public class Crawler<T> {
 	
